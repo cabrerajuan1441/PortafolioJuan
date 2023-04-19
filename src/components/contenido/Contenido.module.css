@@ -1,0 +1,27 @@
+.contenido {
+  display: flex;
+  width: 100%;
+}
+.desarrollador {
+  text-align: center;
+  font-family: "Permanent Marker", cursive;
+  font-weight: bold;
+  font-size: 60px;
+  color: #7c137b;
+  text-shadow: 0 1px 0 #232323, 0 2px 0 #313131, 0 3px 0 #4d4d4d,
+    0 4px 0 #515151, 0 5px 0 #646464, 0 6px 1px rgba(0, 0, 0, 0.1),
+    0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3),
+    0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+
+  margin-top: 30px;
+  margin-left: 50px;
+  width: 80%;
+}
+.sobreMi {
+  text-align: center;
+  float: rigth;
+  margin-left: 50px;
+  width: 40%;
+  margin-top: 80px;
+}

@@ -1,0 +1,57 @@
+.navBar {
+  display: flex;
+  width: 100%;
+  height: 100px;
+}
+.firtsImage {
+  float: left;
+}
+.secondImage {
+  width: 80px;
+  left: 180px;
+  top: 5px;
+
+  position: relative;
+  padding-bottom: 13px;
+}
+
+.listaNav {
+  background-color: #7c137b;
+
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  left: 383px;
+  position: relative;
+  width: 66%;
+  height: 86%;
+}
+.navButtons {
+  float: right;
+  padding: 8px;
+  position: center;
+  margin: auto 0;
+}
+.btnNav {
+  margin: 15px;
+  background-color: #7c137b;
+  border: none;
+  color: rgb(214, 227, 238);
+  font-size: 25px;
+  font-weight: bolder;
+  font-family: "Archivo Black", sans-serif;
+  text-decoration: none;
+}
+.bntNav:before,
+.btnNav:after {
+  content: "";
+  display: block;
+  margin: auto;
+  height: 2px;
+  width: 0px;
+  transition: all 0.8s;
+  padding: 3px;
+}
+.btnNav:hover:after {
+  width: 100%;
+  background: #232323;
+}
