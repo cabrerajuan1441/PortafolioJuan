@@ -15,15 +15,14 @@ const NavBar = () => {
       <div className={styles.contenedorCabrera}>
         <h1 className={styles.cabreraJuan}>Cabrera Juan</h1>
       </div>
-      <div className={styles.listaNav}>
+      <div id="nav" className={styles.listaNav}>
         <div className={styles.navButtons}>
           <button className={styles.btnNav}>
             <a href={"#proyectos"}> Proyectos</a>
           </button>
           <button className={styles.btnNav}>
-            <a href={"#conocimientos"}> Conocimientos</a>
+            <a href={"#conocimientos"}> Conocimientos / Contacto</a>
           </button>
-          <button className={styles.btnNav}>Contacto</button>
         </div>
       </div>
     </div>

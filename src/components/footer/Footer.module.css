@@ -3,6 +3,8 @@
   display: flex;
   width: 100%;
   align-items: center;
+  height: 70px;
+  box-shadow: 0px -2px 10px #2e2e2e;
 }
 .footP {
   color: rgb(0, 0, 0);
@@ -14,4 +16,5 @@
 .footImg {
   margin-left: 50px;
   padding-left: 120px;
+  filter: drop-shadow(0px 2px 3px #000000a5);
 }
