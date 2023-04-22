@@ -1,1 +1,17 @@
-
+.footer {
+  background-color: #666666;
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.footP {
+  color: rgb(0, 0, 0);
+  font-size: 23px;
+  font-weight: bold;
+  font-family: "IBM Plex Mono", monospace;
+  margin: auto;
+}
+.footImg {
+  margin-left: 50px;
+  padding-left: 120px;
+}
