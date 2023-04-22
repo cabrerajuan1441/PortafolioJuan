@@ -37,33 +37,33 @@ export const Conocimientos = () => {
         <h3 id="conocimientos" className={styles.misConocimientos}>
           Mis Conocimientos
         </h3>
-      </div>
-      <div className={styles.containerImagenes}>
-        <img
-          className={styles.conocimientosImagenes}
-          alt="HTML"
-          src={require("./imagens/html-5.png")}
-        ></img>
-        <img
-          className={styles.conocimientosImagenes}
-          alt="CSS"
-          src={require("./imagens/css-3.png")}
-        ></img>
-        <img
-          className={styles.conocimientosImagenes}
-          alt="REACT"
-          src={require("./imagens/react.png")}
-        ></img>
-        <img
-          className={styles.conocimientosImagenes}
-          alt="JavasCript"
-          src={require("./imagens/java-script.png")}
-        ></img>
-        <img
-          className={styles.conocimientosImagenes}
-          alt="Bootstrap"
-          src={require("./imagens/bootstrap.png")}
-        ></img>
+        <div className={styles.containerImagenes}>
+          <img
+            className={styles.conocimientosImagenes}
+            alt="HTML"
+            src={require("./imagens/html-5.png")}
+          ></img>
+          <img
+            className={styles.conocimientosImagenes}
+            alt="CSS"
+            src={require("./imagens/css-3.png")}
+          ></img>
+          <img
+            className={styles.conocimientosImagenes}
+            alt="REACT"
+            src={require("./imagens/react.png")}
+          ></img>
+          <img
+            className={styles.conocimientosImagenes}
+            alt="JavasCript"
+            src={require("./imagens/java-script.png")}
+          ></img>
+          <img
+            className={styles.conocimientosImagenes}
+            alt="Bootstrap"
+            src={require("./imagens/bootstrap.png")}
+          ></img>
+        </div>
       </div>
     </>
   );
